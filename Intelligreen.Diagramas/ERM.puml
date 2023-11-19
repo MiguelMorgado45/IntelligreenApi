@@ -1,0 +1,35 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+scale 1.5
+entity "Planta" as planta {
+    * PlantaId : Guid
+    --
+    Nombre : String
+    NombreCientifico : String
+    Descripcion : String
+    ClasificacionSol : Clasificacion
+    ClasificacionAgua : Clasificacion
+    ClasificacionCuidado : Clasificacion
+    HumedadTierra : float
+    HumedadAmbiente : float
+    TemperaturaAmbiente : float
+}
+
+entity "Cuidado" as cui {
+    * CuidadoId : Guid
+    --
+    Descripcion : String
+    PlantaId: Guid
+}
+
+planta -- Clasificacion
+planta }o-- cui
+
+enum Clasificacion {
+    Poca
+    Media
+    Mucha
+}
+
+@enduml

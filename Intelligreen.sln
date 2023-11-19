@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intelligreen.API", "Intelligreen.API\Intelligreen.API.csproj", "{79F8B8E3-0276-4393-8277-F755C16799BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intelligreen.Domain", "Intelligreen.Domain\Intelligreen.Domain.csproj", "{3F734150-B51F-44CD-8D16-1C13DA814E84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intelligreen.Application", "Intelligreen.Application\Intelligreen.Application.csproj", "{0F390B8C-8D89-4A15-98F7-4616B0DE2891}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intelligreen.Persistence", "Intelligreen.Persistence\Intelligreen.Persistence.csproj", "{80096B07-1584-4D1E-8FC9-C0AD90035654}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79F8B8E3-0276-4393-8277-F755C16799BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F8B8E3-0276-4393-8277-F755C16799BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F8B8E3-0276-4393-8277-F755C16799BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F8B8E3-0276-4393-8277-F755C16799BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F734150-B51F-44CD-8D16-1C13DA814E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F734150-B51F-44CD-8D16-1C13DA814E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F734150-B51F-44CD-8D16-1C13DA814E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F734150-B51F-44CD-8D16-1C13DA814E84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F390B8C-8D89-4A15-98F7-4616B0DE2891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F390B8C-8D89-4A15-98F7-4616B0DE2891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F390B8C-8D89-4A15-98F7-4616B0DE2891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F390B8C-8D89-4A15-98F7-4616B0DE2891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80096B07-1584-4D1E-8FC9-C0AD90035654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80096B07-1584-4D1E-8FC9-C0AD90035654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80096B07-1584-4D1E-8FC9-C0AD90035654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80096B07-1584-4D1E-8FC9-C0AD90035654}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
